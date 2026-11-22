@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project 2: CIV102</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	
+		<style>
+			@font-face {
+				font-family: 'DMSans';
+				src: url('DMSans_24pt-Regular.ttf') format('truetype');
+			}
+			body{
+				font-family: 'DMSans', sans-serif !important;
+				font-size: 18pt !important; 
+			}
+			h1 { font-size: 4em !important; }
+			h2 { font-size: 3em !important; }
+			h3 { font-size: 2em !important; }
+			.babyblue {color: #6badd9;}
+			.flins {color: #898bcd;}
+			.varus {color: #a79bc6;}
+			.march {color:#c790c4;}
+			.justine {color: #ef9ec1;} 
+			.peach {color: #eaa59f;} 
+
+			#footer .actions.special {
+				display: flex;
+				justify-content: center;
+				padding-left: 0;
+				list-style: none;
+				margin: 0 auto; 
+				gap: 2rem;
+				width: fit-content;
+			}
+
+			#footer .actions.special li {
+				padding-left: 0;
+			}
+
+			.button.primary {
+				background-color: #ffffff !important;
+				background-image: none !important; 
+				color: #898bcd !important;       
+				box-shadow: inset 0 0 0 2px #ffffff !important; 
+			}
+			
+			.button.disabled {
+				visibility: hidden;
+			}
+
+			#intro {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)), url('images/sussybridge.jpg'); 
+				background-size: cover;          
+				background-position: center;     
+				background-repeat: no-repeat;    
+				color: #ffffff;                   
+				padding: 4em 2em;                
+			}
+
+			#conc {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)), url('images/bridgegroupphoto.png'); 
+				background-size: cover;           
+				background-position: center;      
+				background-repeat: no-repeat;    
+				color: #ffffff;                   
+				padding: 4em 2em;                 
+			}
+
+			#intro h2 {
+    		color: #ffffff !important;
+			}
+
+			#conc h2 {
+    		color: #ffffff !important;
+			}
+
+			
+			.image-small {
+				width: 65%;           
+				margin: 0 auto 2rem;  
+			}
+
+			.image-tiny {
+				width: 45%;           
+				margin: 0 auto 2rem;  
+			}
+
+			.image-norm {
+				width: 100%;           
+				margin: 0 auto 2rem;  
+			}
+
+			
+			.image-small img {
+				width: 100%;
+				height: auto;
+				border-radius: 8px;   
+			}
+
+			.image-tiny img {
+				width: 100%;
+				height: auto;
+				border-radius: 8px;   
+			}
+
+			
+			figcaption {
+				text-align: center;
+				font-size: 0.8em;     
+				font-style: italic;
+				color: #898bcd;       
+				margin-top: 0.5rem;
+			}
+
+			.image-row {
+				display: flex;
+				justify-content: center; 
+				gap: 1rem;              
+				margin-bottom: 0.5rem;  
+			}
+
+			
+			.image-row img {
+				flex: 1;               
+				max-width: 48%;        
+				height: auto;
+				border-radius: 8px;
+				object-fit: scale-down;
+			}
+			
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>CIV102</h1>
+						<p>Building a Matboard Bridge</p>
+						<ul class="actions special">
+							<li><a href="praxiss.html" class="button">Praxis</a></li>
+							<li><a href="bridge.html" class="button">CIV102</a></li>
+							<li><a href="phys.html" class="button">Physical Labs</a></li>
+							<!--<li><a href="bib.html" class="button">Appreciation and Credits</a></li>--> 
+						</ul>
+						<ul class="actions special">
+							<li><a href="ece.html" class="button">ECE Labs</a></li>
+							<li><a href="ilovetrains.html" class="button">Commuter Goals</a></li>
+							<li><a href="art.html" class="button">Artist's Corner</a></li>
+							<!--<li><a href="bib.html" class="button">Appreciation and Credits</a></li>--> 
+						</ul>
+					</header>
+				
+				<!--navigation-->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">"Sussy Konstruksyon Kwaltie"</a></li>
+							<li><a href="#first"><span class = "babyblue">Collaboration</span></a></li>
+							<li><a href="#second"><span class = "varus">Risk</span></a></li>
+							<li><a href="#third"><span class = "justine">Prototyping</span></a></li>
+							<li><a href="#conc"><span class = "peach">Lessons from a Fallen Bridge</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="intro" class="main">
+								<h2>What was the "Sussy Konstruksyon Kwaltie" Bridge?</h2>
+								<p>This was the name we gave to our beloved matboard beam bridge, which my team and I designed, analyzed, and prototyped all from scratch in our structures and materials course, CIV102. 
+								<p>At the end of the project, our bridge, along many other groups', were tested for their strength (maximum load) and material efficiency (ratio between maximum load and weight). They were placed across a length of roughly 1250mm, and a model 3-cart train would run over the bridge deck. The mass of the train would be incrementally increased until the bridge fell.  
+							</section>
+							
+							<section id="first" class="main">
+								<h2>Framing the project: Delegating Tasks for Teamwork</h2>
+								<p>In previous CIV102 labs, our team had already worked together, so we all had a sense of each others' strengths and abilities. Towards the first Deliverable, which was composed of force calculations for a initial given design, we planned out the tasks that each member should focus on. For me, I felt more confident with the mechanical end, such as designing the bridge dimensions and prototyping. </p>
+								<figure class="image-tiny">
+									<img src="images/delegatetasks.png" alt="" />
+									<figcaption>While I worked on more hands-on construction tasks, my teammates took initiative to work to their strengths, such as programming or drawing diagrams (not shown on this image).</figcaption>
+								</figure>
+								<p>From Praxis I, I learned about the importance of having time to work together as a team. Group working sessions allowed us to complete tasks in parallel, so that we could build off of each others efforts to make a collaborative result. Activities such as revising designs, writing long and complicated code, or even gathering materials, should be done as a team.</p>
+								<figure class="image-small">
+									<img src="images/groupmatboard.png" alt="" />
+									<figcaption>Drawing the layout and cutting the large matboard is much easier and funner as a team, and it was also a chance to discuss what our next steps were. Here's my friend taking a sneak picture of us as I'm trying to draw out the shapes on the matboard!</figcaption>
+								</figure>
+								<p>In our team, our group working sessions were generally productive, because each member in our team had faith that the other members would attend the meeting with their part done well. With this trust, we could work in parallel every week or two, framing our project by continuously delegating new tasks, planning next steps, and revising design decisions.</p>
+								<figure class="image-tiny">
+									<img src="images/parallelwork.png" alt="" />
+									<figcaption>When I finished finalizing the dimensions of the bridge design, my teammates were quick to create the CAD model and draw the layout of the matboard for cutting (opticutter pdf).</figcaption>
+								</figure>
+							</section>
+
+							<section id="second" class="main">
+								<h2>Converging our Design Space: Constrained by Resources</h2>
+								<p>The bridge project was unique compared to Praxis because we had explicit, limited resources: the matboard was only 1015x810mm big, we had 2 tubes of contact cement, and we had a deadline to complete the bridge, which meant extra time needed to be allocated to allow the cement to dry. Additionally, we didn't have nearly as much freedom to reframe our opportunity in methods such as altering the bridge type. </p>
+								<figure class="image-tiny">
+									<img src="images/resources.jpg" alt="" />
+									<figcaption>We only had 2 small 30mL tubes of contact cement, and we were also responsible for bringing our own safety gear like masks and gloves.</figcaption>
+								</figure>
+								<p>Our team decided to focus on pure strength of the bridge, which meant that we were likely sacrificing material efficiency. We analyzed and chose changes that could increase the most bridge strength, while considering if the change was high risk or low risk. For example, adding extra diaphragms would greatly increase the bridge's plate buckling ratio, while being low risk becausee the diaphragms did not take much material and fit into the design nicely.</p>
+								<figure class="image-small">
+									<div class="image-row">
+										<img src="images/thickdeck.png" alt="" />
+										<img src="images/thindeck.png" alt="" />
+									</div>
+									<figcaption>On the other hand, increasing the thickness of the deck (top horizontal, highlighed) only improved the compression flexural numbers, while risking other parts of the bridge since it would take a lot of material.</figcaption>
+								</figure>
+								<p>The decision to use the entire matboard was identified by us to be high risk. Every part of the matboard belonged to an important piece on the bridge, so to avoid cutting or accuracy errors, we ensured each piece was slightly larger than the required calculation. </p>
+								<figure class="image-small">
+									<img src="images/bridgeerror.jpg" alt="" />
+									<figcaption>Even though we tried to trim off uneven edges and measure twice before gluing, the bridge still looked quite messy and we spent extra time improving the build quality.</figcaption>
+								</figure>
+							</section>
+
+							<section id="third" class="main">
+								<h2>Representing our efforts: Bringing the Design to Reality</h2>
+								<p>The entire process of building the bridge demonstrated how it's in the hands of the team to represent these uncertainties in engineering design. Before we even built the bridge, we had to demonstrate that our bridge could really meet the goal of maximizing strength. There was only enough resources to create the bridge once, so we had to be confident that our design would perform well.</p>
+								<figure class="image-small">
+									<div class="image-row">
+										<img src="images/sfe.png" alt="" />
+										<img src="images/bme.png" alt="" />
+									</div>
+									<figcaption>Calculations done by coding, which were then represented in a graph to show the maximum shear and bending moment forces that our bridge had to sustain.</figcaption>
+								</figure>
+								<p>Our prototypes included building a mini-version of the bridge, writing code to calculate the strength of the bridge, and designing a 3D CAD model to show dimensions of the bridge. These prototypes reflected our idea of the bridge at that point in time, and were revised throughout the project to match new design decisions.</p>
+								<figure class="image-small">
+									<img src="images/iterations.png" alt="" />
+									<figcaption>Multiple iterations of the bridge design, in which Design 2 was the most notable as we decided to completely remove the bottom board in favour of adding diaphragms.</figcaption>
+								</figure>
+								<p>Yet these prototypes were not an accurate representation of what happened in testing. The mathematical prototype that we programmed predicted a maximum load of 883N, and that failure would occur by compression at the centre of the bridge. However, testing revealed that our bridge actually failed at 133 N - and this wasn't due to a design error, but rather an assembly one!</p>
+								<figure class="image-small">
+									<img src="images/failure.png" alt="" />
+									<figcaption>One side of the wall failed by tension and was ripped apart since it wasn't properly glued onto the glue tab, which was an error that we had tried but failed to prevent.</figcaption>
+								</figure>
+							</section>
+
+							<section id="conc" class="main">
+								<h2>Lessons from a Fallen Bridge</h2>
+								<!--team photo background-->					
+								<p>Although the "Sussy Konstruksyon Kwaltie" Bridge eventually did fall, it developed my understanding of engineering design. I experienced the process of bringing an idea to reality as a team after deciding on a recommended design, which came with a lot of planning and unseen obstacles. In our case, we have the chance to fail and retry without too much consequences (mostly just material costs and ego), but that might not be the case in the future, emphasizing the stakes engineers hold when they recommend a design.</p>
+							</section>
+					</div>
+
+				 
+					<footer id="footer">
+    					<ul class="actions special">
+							<li><a href="praxiss.html" class="button large">Previous: PRAXIS</a></li>
+        					<li><a href="index.html" class="button large primary">Back to Main!</a></li>
+							<li><a href="phys.html" class="button large">Next: PHYSICAL LABS</a></li>
+    					</ul>
+					</footer>
+					
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

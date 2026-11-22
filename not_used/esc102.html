@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project 3: ESC102</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	
+		<style>
+			@font-face {
+				font-family: 'Shyah';
+				src: url('Shyah-Regular.ttf') format('truetype');
+			}
+			body{
+				font-family: 'Shyah', sans-serif !important;
+				font-size: 18pt !important; 
+			}
+			h1 { font-size: 4em !important; }
+			h2 { font-size: 3em !important; }
+			h3 { font-size: 2em !important; }
+			.crayon {color: #7c32f5;}
+			.varus {color: #615296;}
+			.highlight {color: #b7a7e3;}
+			.babyblue {color: #8bc7ee;}
+			.peach {color: #efa8b0;} 
+			.justine {color: #fdc1db;} 
+
+			#footer .actions.special {
+				display: flex;
+				justify-content: center;
+				padding-left: 0;
+				list-style: none;
+				margin: 0 auto;
+				gap: 2rem;
+				width: fit-content;
+			}
+
+			#footer .actions.special li {
+				padding-left: 0;
+			}
+
+			.button.primary {
+				background-color: #ffffff !important;
+				background-image: none !important; 
+				color: #efa8b0 !important;        
+				box-shadow: inset 0 0 0 2px #ffffff !important; 
+			}
+			
+			.button.disabled {
+				visibility: hidden;
+			}
+
+			#intro {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)), url('cadwristband.png'); 
+				background-size: cover;           
+				background-position: center;      
+				background-repeat: no-repeat;     
+				color: #ffffff;                   
+				padding: 4em 2em;                
+			}
+
+			#conc {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)), url('wristbandgroup.jpg'); 
+				background-size: cover;           
+				background-position: center;      
+				background-repeat: no-repeat;     
+				color: #ffffff;                   
+				padding: 4em 2em;                
+			}
+
+			#intro h2 {
+    		color: #b7a7e3 !important;
+			}
+
+			#conc h2 {
+    		color: #b7a7e3 !important;
+			}
+
+			.image-small {
+				width: 65%;           
+				margin: 0 auto 2rem;  
+			}
+
+			.image-tiny {
+				width: 45%;          
+				margin: 0 auto 2rem; 
+			}
+
+			.image-norm {
+				width: 100%;           
+				margin: 0 auto 2rem;  
+			}
+
+			
+			.image-small img {
+				width: 100%;
+				height: auto;
+				border-radius: 8px;   
+			}
+
+			.image-tiny img {
+				width: 100%;
+				height: auto;
+				border-radius: 8px;   
+			}
+
+
+			
+			figcaption {
+				text-align: center;
+				font-size: 0.8em;     
+				font-style: italic;
+				color: #b7a7e3;       
+				margin-top: 0.5rem;
+			}
+
+			.image-row {
+				display: flex;
+				justify-content: center; 
+				gap: 1rem;              
+				margin-bottom: 0.5rem;   
+			}
+
+			
+			.image-row img {
+				flex: 1;                
+				max-width: 48%;         
+				height: auto;
+				border-radius: 8px;
+				object-fit: scale-down;
+			}
+			
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Project 3: ESC102</h1>
+						<p>The "SLAP! - a field trip wristband"</p>
+						<ul class="actions special">
+							<li><a href="estatement.html" class="button">Position Statement</a></li>
+							<li><a href="esc101.html" class="button">ESC101</a></li>
+							<li><a href="civ102.html" class="button">CIV102</a></li>
+							<li><a href="esc102.html" class="button primary">ESC102</a></li>
+							<li><a href="bib.html" class="button">Appreciation and Credits</a></li>
+						</ul>
+					</header>
+				
+				<!--navigation-->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">"SLAP! - a field trip wristband"</a></li>
+							<li><a href="#first"><span class = "babyblue">Framing: Community</span></a></li>
+							<li><a href="#second"><span class = "varus">Diverging: Morph Charts</span></a></li>
+							<li><a href="#third"><span class = "peach">Represent: Verification</span></a></li>
+							<li><a href="#conc"><span class = "justine">Wrapping up the Wristbands</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="intro" class="main">
+								<h2>What was the "SLAP! - a field trip wristband"?</h2>
+								<p>At this point, I've completely two projects with mostly the same teammates, and I was no where near comfortable working with a new team. So when Praxis II came along and assigned me into a group with new faces, I felt like I was back in the first month of Praxis I again.</p>
+								<p>But this time was different - I had the knowledge and experience from before. Seeing how the RFP, Beta Release, and Showcase were just upgraded, more in-depth versions of the original assignments in Praxis I, it gave me the confidence to get comfortable with my new team. <span class = "highlight">This time, we had the opportunity to put our engineering design skills in use for a real community: the Balmy Beach Daycare Centre, whose goal was to increase the time efficiency of applying wristbands onto children.</span></p>
+							</section>
+							
+							<section id="first" class="main">
+								<h2>Framing the project: The Praxis Definition of a Community</h2>
+								<p>In Praxis II, we learned that a community consists of one or more individuals that are united by location, identity, organization, or interest. Our project required us to collaborate with one of these communities in the GTA, but before we could reach out, we had to do our "Due Diligence": We had to understand and approach a community in their perspective to avoid causing harm to members or treating people like things.</p>
+								<figure class="image-tiny">
+									<img src="evil.png" alt="" />
+									<figcaption>As a team, we agreed that connecting and understanding a community would lead to opportunities, and we shouldn't just find a community for the sake of acquiring an opportunity.</figcaption>
+								</figure>
+								<h3>How to engage with a community</h3>
+								<p>To demonstrate due diligence, we conducted secondary research to better engage with the community. This included recognizing the activities, goals, and risks in the community, and doing so also helped us prepare thoughtful questions for the community when we do establish contact.</p>		
+								<figure class="image-tiny">
+									<img src="site3web.png" alt="" />
+									<figcaption>Site 3 CoLaboratory was a community that we were interested in learning more about. It would be stupid to connect with the community just to ask "what do you do?" or "what services do you provide" when the information is on their website!</figcaption>
+								</figure>
+								<p>We eventually had the opportunity to connect with Site 3 CoLaboratory. As a team, we decided to take the next steps to properly engage with the community and represent our team's wish to collaborate with them. They validated our intentions, and also verified that there were indeed aspects in the community that we could lend a hand in: preventing airborne micro-fibres, which are released by tufting in the crafting area, from entering non-tufting areas.</p>
+								<figure class="image-small">
+									<img src="tufting.png" alt="" />
+									<figcaption>From our conversation with the executive director, Marco, we established that the airborne tufting fibres were an issue in the community.</figcaption>
+								</figure>
+								<p>Confirming this problem with the community gave us the green light for us to frame an opportunity for this issue. <span class = "crayon"> Through continuous communication with the community, we could verify the stakeholder needs and frame a design space for the opportunity that validated these needs.</span> Eventually, we developed a request for proposal on preventing airborne tufting fibres in Site 3.</p>
+								<figure class="image-small">
+									<img src="tuftinggun.png" alt="" />
+									<figcaption>By talking with the fibre-crafts steward ("expert"), Ally, we framed the goals for tufting: implement a safe system without making everyone outside the crafting area wear protective equipment.</figcaption>
+								</figure>
+							</section>
+
+							<section id="second" class="main">
+								<h2>Diverging: Acknowledging Team Values</h2>
+								<p>Unfortunately, due to Praxis II restrictions, we weren't able to continue collaborating with Site 3 and instead had to pivot to another opportunity: increasing the time efficiency of applying wristbands at the Balmy Beach Daycare. In the new RFP, they framed a design space that suggested a solution through mechanical means, like a machine that applied wristbands. <span class = "crayon">With this new opportunity, we had to again work as a team to devise a solution that can be validated and accepted by the community.</span></p>
+								<figure class="image-tiny">
+									<img src="schedule.png" alt="" />
+									<figcaption>The planned departure time for field trips at Balmy Beach are often delayed significantly due to obstacles during wristband application.</figcaption>
+								</figure>
+								<h3>Using Morph Charts to incorportae our values</h3>
+								<p>As a team, we didn't quite agree with the provided design space because the solutions in the space didn't seem to address the root cause of why the process was inefficent. The director of Balmy Beach Centre, Christine, indicated that the most time-consuming step of applying wristbands was adjusting the size of the wristband for each child, cutting off the excess, and having to cut of the entire bracelet if it was applied incorrectly. </p>
+								<figure class="image-small">
+									<div class="image-row">
+										<img src="ogframe.png" alt="" />
+										<img src="autowrist.png" alt="" />
+									</div>
+									<figcaption>The original RFP emphasized designing tools that could speed up the application of the original wristband (like the reference design), but it didn't consider edge cases such as redoing the bracelet because of discomfort or sizing.</figcaption>
+								</figure>
+								<p>Additionally, our team values empathy and systemic engineering, and we hoped that every stakeholder, from staff, students, to parents, were able to participate in the process of wearing wristbands. If we simply made a machine to apply wristbands to children, it felt like we were thinking of the children as "things that we needed to get wristbands on perfectly". We wondered if we could give the children a bigger role in wearing wristbands...such as making them wear it themselves!</p>
+								<figure class="image-tiny">
+									<img src="slapbands.jpg" alt="" />
+									<figcaption>We took inspiration from fun party slapbands, which could be applied and fit automatically onto wrists by young children by themselves.</figcaption>
+								</figure>
+								<p>We diverged into the initial SLAP! design, which featured a slapband and with a flaps with locking buttons. We sent several emails to the community confirming the cognitive abilities of children, and evaluated that they were able to slap the wrist onto their wrist with 2 simple steps. We also considered the parents' expectations, which see the staff as the authority in the process. Therefore, the locking flap was added as a "verification cue,": the staff had to lock the buttons using the flaps after the child has worn their slapband to both confirm that it was worn correctly and prevent it from being taken off during field trips.</p>
+								<figure class="image-tiny">
+									<img src="buttononband.jpg" alt="" />
+									<figcaption>We used this prototype to show that a locked flap around a slapband could stop children from lifting up the end to take the wristband off.</figcaption>
+								</figure>
+							</section>
+
+							<section id="third" class="main">
+								<h2>Represent: Verifying and Validating</h2>
+								<p>Although we now had a design that seemed like a solution, we had to actually verify that the features worked, and acquire the community's validation for the idea. <span class = "crayon">In engineering design, these confirming these aspects are important to ensure that a bridges don't fall after being built.</span></p>
+								<figure class="image-small">
+									<img src="newwristband.png" alt="" />
+									<figcaption>We confirmed with the community that redesigning a new wristband was a viable solution, as long as it met their needs.</figcaption>
+								</figure>
+								<h3>Letting the audience believe in a design</h3>
+								<p>Verification shows that our design actually meets the needs from the community and our own requirements. Testing for evaluation criteria can show that the new design performs better than the original, or demonstrating that the improved requirements are met.</p>
+								<figure class="image-tiny">
+									<img src="data.png" alt="" />
+									<figcaption>Using a mean-time analysis, we applied both the original and new wristband designs and evaluated the data. It was determined that our design increased time efficiency for both regular and edge cases.</figcaption>
+								</figure>
+								<!--in our eyes, the most crucial requirement to verify was the time -->
+								<p>Other times, we researched materials that would work well on our design, such as PVC or fluoroelastomer, since we lacked the resources to acquire these supplies. Then, we conducted to design the dimensions of the wristband using the researched material properties such that it would meet the requirement metrics.</p>
+								<figure class="image-small">
+									<div class="image-row">
+										<img src="breakage.png" alt="" />
+										<img src="calc.png" alt="" />
+									</div>
+									<figcaption>We imagined a situation where a child might want to take off their wristband in an emergency, and calculated dimensions with chosen materials so it breaks upon 70N of force, which is based on a test for safety in children's toys (boxed in red).</figcaption>
+								</figure>
+								<!--Didn't represent kid can't get bracelet off when button only so added waveforms-->
+								<p>We kept the concerns of the community in mind, even if it wasn't necessarily a Praxis requirement, such as cost. Our wristband was new from the original, so we designed it to be reusable to accomodate for the new product. The cost efficiency, along with our other design decisions, helped us gain validation for our SLAP! from the community。</p>
+								<figure class="image-small">
+									<img src="validate.png" alt="" />
+									<figcaption>After sending our final proposed design to Christine, she responded to confirm needs like waterproof materials, then indicated her admiration for our design!</figcaption>
+								</figure>
+								<!--community confirming that a new bracelet design is possible as long as it's cost efficient, so our slap is a reusable design, and they love our design! -->
+							</section>
+
+							<section id="conc" class="main">
+								<h2>Wrapping up the Wristbands</h2>
+								<p>Working with the communities really gave me a mental "checklist" when designing for a solution. <span class = "highlight">It was up to our team to prove to stakeholders, such as the community members and the teaching team, that our recommended design is the best solution to the opportunity.</span> Just like developing a design, convincing the audience to believe in our design is also an iterative process.</p>
+								<h3><span class = "highlight">Now that we have gone through multiple rounds of verifying and validating our ideas, the next step in engineering design would be launching the idea in production... </span></h3>
+							</section>
+					</div>
+
+				 
+					<footer id="footer">
+    					<ul class="actions special">
+							<li><a href="civ102.html" class="button large">Previous: CIV102</a></li>
+        					<li><a href="index.html" class="button large primary">Back to Main!</a></li>
+							<li><a href="bib.html" class="button large">Next: Credits</a></li>
+    					</ul>
+						<!--How to Verify and Validate an Idea-->
+					</footer>
+					
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
